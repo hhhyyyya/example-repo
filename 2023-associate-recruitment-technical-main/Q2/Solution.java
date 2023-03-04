@@ -11,6 +11,7 @@ public class Solution {
             if (strs[1] == "false") {
                 res.add(strs[2]);
             }
+            scanner.nextLine();
         }
         if (res.isEmpty()) {
             System.out.println("true");
